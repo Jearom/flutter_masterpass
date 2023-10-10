@@ -1,6 +1,7 @@
 name: flutter_masterpass_ios
 description: A new Flutter plugin project.
 version: 0.0.1
+publish_to: none
 homepage:
 
 environment:
@@ -11,6 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
+  flutter_masterpass_platform_interface:
+    path: ../flutter_masterpass_platform_interface/
 
 dev_dependencies:
   flutter_test:
